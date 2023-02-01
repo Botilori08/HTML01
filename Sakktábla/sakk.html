@@ -24,8 +24,15 @@
             background-color: white;
             border: 1px solid black;
             text-align: center;
-            text-transform: uppercase
+            text-transform: uppercase;
+            background-repeat: no-repeat;
 
+        }
+        .feherBastya, .feherFuto, .feherLo, .feherVezer, .feherKiraly, .feherGyalog,
+        .feketeBastya, .feketeFuto, .feketeLo, .feketeVezer, .feketekiKiraly, .feketeGyalog 
+        {
+            background-image: url(./chess.png);
+            background-size: 300% 300%;
         }
 
         table
@@ -34,17 +41,25 @@
             border-collapse: collapse;
             margin: auto;
         }
-        .feherBastya
-        {
-            background-image: url(./chess.png);
-            background-size: 300px 323px;
-            background-position: 32% 100%;
-        }
+        .feherBastya {   background-position: 30% 103%;}
+
+        .feherFuto {background-position: 70% 103%;}
+
+        .feherLo {background-position: -10% 103%;}
+
+        .feherVezer {background-position: 110% 53%;}
+
+        .feherKiraly {background-position: 70% 53%;}
+
+        .feherGyalog {background-position: 110% 103%;}
+
+        .feketeKiraly {background-position: 70% 53%;}
+
 
     </style>
 </head>
 <body>
-    <!--<img src="chess.png">-->
+    <img src="chess.png">
     1188*1280
     594*852
     <table> 
@@ -54,24 +69,24 @@
         <tr>
             <td>1</td>
             <td class="fekete feherBastya"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
+            <td class="feherLo"></td>
+            <td class="fekete feherFuto"></td>
+            <td class="feherVezer"></td>
+            <td class="fekete feherKiraly"></td>
+            <td class="feherFuto"></td>
+            <td class="fekete feherLo"></td>
+            <td class="feherBastya"></td>
         </tr>
         <tr>
             <td>2</td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
-            <td></td>
-            <td class="fekete"></td>
+            <td class="feherGyalog"></td>
+            <td class="fekete feherGyalog"></td>
+            <td class="feherGyalog"></td>
+            <td class="fekete feherGyalog"></td>
+            <td class="feherGyalog"></td>
+            <td class="fekete feherGyalog"></td>
+            <td class="feherGyalog"></td>
+            <td class="fekete feherGyalog"></td>
         </tr>
         <tr>
             <td>3</td>
@@ -134,7 +149,7 @@
             <td class="fekete"></td>
             <td></td>
             <td class="fekete"></td>
-            <td></td>
+            <td class="feketeKiraly"></td>
             <td class="fekete"></td>
             <td></td>
             <td class="fekete"></td>
