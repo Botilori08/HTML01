@@ -74,24 +74,38 @@
         var elso;
         function kattint(elem)
         {
+    
             //console.log (elem)
             if (sorszam==0)
             {
-                if(elem.dataset["babu"]!="")
+                //üreset ne lehessenen felvenni
+             
+                if(elem.dataset["babu"] && elem.dataset["babu"]!="")
                 {   
                     elso=elem;
                     sorszam++;
+                    console.log(elem);
+                    console.log(elem.dataset["babu"]);
                 }
             }
-			else
-			{   
+            else if (elem!==elso)
+            {
+
+                if (elem.dataset["babu"]!="")
+                {
+                    elem.classList.remove(elem.dataset["babu"]);
+                    elem.dataset["babu"]="";
+                }
+			  
                 //lerakás
+                console.log(elso.dataset)
                 elem.classList.add(elso.dataset["babu"]);
                 elem.dataset["babu"]=elso.dataset["babu"];
 
                 //régi törlése
                 elso.classList.remove(elso.dataset["babu"]);
                 elso.dataset["babu"]="";
+
 				sorszam=0;
 			}
 
