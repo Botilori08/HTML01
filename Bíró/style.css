@@ -23,3 +23,15 @@ table
 {
     width: 50px;
 }
+h1
+{
+    text-align: center;
+}
+.menusor
+{
+    height: 125px;
+}
+.keret
+{
+    border: 1px solid black;
+}
