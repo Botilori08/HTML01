@@ -1,0 +1,33 @@
+        .red
+        {
+            background-color: red;
+        }
+        canvas
+        {
+            height: 80px;
+            width: 900px;
+        }
+        .purple
+        {
+            background-color: purple;
+        }
+        .violet
+        {
+            background-color: violet;
+        }
+        .yellow
+        {
+            background-color: yellow;
+        }
+        .yellowgreen
+        {
+            background-color: yellowgreen;
+        }
+        .lightblue
+        {
+            background-color: lightblue;
+        }
+        .blue
+        {
+            background-color: blue;
+        }

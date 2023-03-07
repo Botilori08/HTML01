@@ -1,0 +1,36 @@
+table, tr, td
+{
+    border: 1px solid black;
+    margin: auto;
+}
+td
+{
+ width: 100px;
+ height: 100px;
+}
+.B1 {background-color: blue;}
+.B2 {background-color: rgba(0, 0, 255, 0.784);}
+.B3 {background-color: rgb(7, 7, 116);}
+.B4 {background-color: rgb(71, 71, 193);}
+.B5{background-color: rgb(0, 128, 255);}
+.B6{background-color: rgb(0, 119, 255);}
+.B7{background-color: rgb(0, 238, 255);}
+.B8{background-color: rgb(0, 162, 255);}
+.B9 {background-color: rgb(0, 119, 255);}
+.B10 {background-color: rgb(25, 8, 69);}
+.B11 {background-color: rgb(6, 6, 101);}
+.B12 {background-color: rgb(100, 100, 247);}
+.B13 {background-color: rgb(124, 124, 244);}
+.B14 {background-color: rgb(51, 0, 255);}
+.B15 {background-color: rgb(107, 107, 178);}
+.B16 {background-color: rgb(49, 49, 76);}
+.B17 {background-color: rgb(0, 242, 255);}
+.B18 {background-color: rgb(113, 113, 225);}
+.B19 {background-color: rgb(0, 113, 170);}
+.B20 {background-color: rgb(89, 0, 255);}
+.B21 {background-color: rgb(0, 166, 255);}
+.B22 {background-color: rgb(55, 55, 92);}
+.B23 {background-color: rgb(30, 80, 114);}
+.B24 {background-color: rgb(0, 247, 255);}
+.B25 {background-color: rgb(24, 143, 255);}
+.B26 {background-color: rgb(105, 148, 194);}
