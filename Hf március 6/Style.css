@@ -2,32 +2,24 @@
         {
             background-color: red;
         }
-        canvas
+        .orange
         {
-            height: 80px;
-            width: 900px;
-        }
-        .purple
-        {
-            background-color: purple;
-        }
-        .violet
-        {
-            background-color: violet;
+            background-color: orange;
         }
         .yellow
         {
             background-color: yellow;
         }
-        .yellowgreen
+        .green
         {
-            background-color: yellowgreen;
+            background-color: rgb(29, 165, 51);
         }
-        .lightblue
-        {
-            background-color: lightblue;
-        }
+        
         .blue
         {
             background-color: blue;
+        }
+        .purple
+        {
+            background-color: purple;
         }
