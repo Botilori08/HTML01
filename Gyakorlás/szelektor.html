@@ -10,15 +10,44 @@
 		{
 			border: 1px solid black;
 		}
+        #keresett
+        {
+            color: red;
+        }
+        div > span 
+        {
+            font-size: 25px;
+        }
+        .hatter
+        {
+            background-color: aqua;
+        }
+        h1.hatter
+        {
+            background-color: navy;
+            color: aqua;
+        }
+        body div div.hatter b span.hatter
+        {
+            background-color: aquamarine;                
+        }
+        span#keresett.hatter
+        {
+            background-color: pink;
+        }
 	</style>
 </head>
 <body>
     <h1>cím</h1>
     <div>
         <div>első</div>
-        <div>második</div>
-		 	<span>elem</span>
-			<span>más színű</span>
+        <div class="hatter">második
+		 	<span id="keresett" class="hatter">elem</span>
+			<b>
+                <span class="hatter">más színű</span>
+            </b>
+            <span class="hatter">ÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁ!!!!</span>
+        </div>
     </div>
 </body>
 </html>
