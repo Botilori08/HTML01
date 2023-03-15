@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box model</title>
+    <style>
+        h1
+        {
+            border: 6px solid blue;
+            margin: 20px;
+            text-align: center;
+        }
+        h2
+        {
+            border: 15px solid rgb(16, 59, 16);
+            content: icon;
+            padding: 14px;
+            margin: 16px 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: right;
+        }
+        span
+        {
+            border: 3px solid red;
+            padding:  12px;
+            margin: 20px 40px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 42px;
+        }
+        span#C1
+        {
+            border: 5px solid darkred;
+            padding: 12px;
+            margin:20px 45px;
+            font-size: 40px;
+            text-align: center
+        }
+        div 
+        {
+            border: 4px solid rgb(88, 88, 18);
+            padding: 12px;
+            margin:30px 45px;
+            font-size: 40px;
+            text-align: right
+        }
+        div.item
+        {
+            border: 10px solid brown;
+            padding: 10px;
+            margin: 25px 40px;
+            font-size: 35px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cím 1</h1>
+    <span>tartalom</span>
+    <div>elem</div>
+    
+    <h2>Cím 2</h2>
+    <div class="item">elem</div>
+    <span id="C1">tartalom</span>
+</body>
+</html>
