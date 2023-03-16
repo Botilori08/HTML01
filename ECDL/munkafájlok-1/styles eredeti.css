@@ -19,29 +19,25 @@ width: 130px;
 
 /* men� hivatkoz�sok st�luselemei */
 
-nav a,
-nav  a:link,
-nav  a:visited
-{
+#menu a,
+#menu a:link,
+#menu a:visited{
     color: yellow;
     text-decoration: none;
 }
-nav  a:hover
-{
+#menu a:hover{
     color: red;
     text-decoration: underline;
 }
 
 /* t�bl�zat st�luselemek */
 
-table
-{
+table{
     border-collapse: collapse;
     margin: 5px auto;
     background-color: #e4dccf;
 }
-th, td
-{
+th, td{
     border: 1px dotted white;
     padding: 4px 20px;
 }
@@ -53,13 +49,11 @@ td.kiemelt{
 
 /* �rlap st�luselemek */
 
-#ajanlat_form p
-{
+#ajanlat_form p{
     font-weight: bold;
     margin-left: 20px;
 }
-#ajanlat_form input[type='text']
-{
+#ajanlat_form input[type='text']{
     width: 300px;
 }
 #ajanlat_form input.meret{
@@ -68,8 +62,7 @@ td.kiemelt{
 
 /* szerkezeti st�luselemek */
 
-header
-{
+#fejlec{
     font-family: 'Nosifer', cursive;
     background: url('fejlec_bg.jpg') repeat;
     height: 120px;
@@ -78,8 +71,7 @@ header
     margin: 0 auto;
 
 } 
-header h1
-{
+#fejlec h1{
     font-size: 24px;
     margin: 0;
     padding: 20px;
@@ -87,39 +79,34 @@ header h1
     text-align: center;
     height: 45px;
 }
-nav
-{
+#menu{
     height: 35px;
 }
-nav ul
-{
+#menu ul{
     margin: 0;
     padding: 0;
     text-align: center;
 }
-nav li
-{
+#menu li{
     display: inline;
     margin: 0 40px;
     font-size: 18px;
 }
-main
-{
+#tartalom{
     width: 940px;
     min-height: 500px;
     padding: 10px;
     margin: 0 auto;
     background-color: white;
 }
-footer
-{
+#lablec{
     height: 40px;
     width: 960px;
     margin: 0 auto;
     background: url('fejlec_bg.jpg') repeat;
     
 }
-footer p{
+#lablec p{
     color: #ccc;
     font-size: 12px;
     font-weight: bold;
@@ -127,11 +114,4 @@ footer p{
     padding: 10px;
     text-align: center;
 }
-*
-{
-    border:1px solid red;
-}
-div
-{
-    border: 2px solid blue;
-}
+
