@@ -1,0 +1,47 @@
+.P1
+{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 25px;
+    background-color: black;
+    color: white;
+}
+.P2
+{
+    font-size: 30px;
+    text-indent: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(./abstract-blue-geometric-shapes-background_1035-17545.avif);
+    text-align: right;
+}
+.P3
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(42, 69, 165);
+    background-image: url(./letöltés\ \(1\).jfif);
+}
+.P4
+{
+    font-size: 35px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    background-color: aquamarine;
+    color: blue;
+    text-decoration-line: underline;
+}
+.P5
+{
+    font-size: 43px;
+    background-image: url(./images.jfif);
+    color: rgb(15, 15, 68);
+    text-align: justify;
+    text-indent: 100px;
+}
+.P6
+{
+    font-size: 16px;
+    background-color: brown;
+}
