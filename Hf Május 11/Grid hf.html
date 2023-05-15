@@ -9,7 +9,6 @@
     .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto auto auto;
     background-color: #2196F3;
     padding: 10px;
     }
@@ -50,21 +49,17 @@
     .item11
     {
         grid-row-start: 4;
-        grid-row-end: 6;
+        grid-row-end: 7;
         grid-column-start: 5
     }
 
     .item7
     {
         grid-row-start: 3;
-        grid-row-end: 7;
+        grid-row-end: 8;
         grid-column-start: 6;
     }
-    .item13
-    {
-        grid-column-start: 2;
-        grid-column-end: 6;
-    }
+    
     .I1
     {
         grid-column-start: 1;
@@ -75,7 +70,20 @@
         grid-row-start: 5;
         grid-column: 3 / span 2;
     }
-    
+    .item4
+    {
+        grid-row-start: 2;
+        grid-row-end: 9;
+        grid-column-start: 7;
+    }
+    .I4
+    {
+        grid-column: 1 / span 5 ;
+    }
+    .item10
+    {
+        grid-column:2 / span 3;
+    }
    
     </style>
 </head>
@@ -92,14 +100,9 @@
         <div class="item9"></div>
         <div class="item10"></div>
         <div class="item11"></div>
-        <div class="item12"></div>
         <div class="I2"></div>
-        <div></div>
-        <div class="item13"></div>
-        <div class="v"></div>
+        <div class="I4"></div>
         <div class="I1"></div>
-        <div class="item14"></div>
-        
       </div>
 </body>
 </html>
