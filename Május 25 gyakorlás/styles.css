@@ -54,17 +54,45 @@ body
 }
 /* sidebar */
 .sidebar
-{
-    background-color: white;
+
+    
 }
 .sidebar .sidebox
 {
     background-color: #96a96f;
     background-image: url(./img/img02.gif);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    margin-block: 20px
 }
-
-
-
+.sidebar .sidebox h3
+{
+    background-color: #203926;
+    color: white;
+    font-size: 14px;
+}
+.sidebox ul li
+{
+    padding-block: 5px;
+    color: #203926;
+    list-style-type: none;
+    padding-left: 20px;
+}
+.sidebox ul
+{
+    padding-left: 0px;
+}
+.sidebox a 
+{
+    text-decoration: none;
+    
+}
+.sidebox a:hover li
+{
+    color: #96a96f;
+    background-color: #203926;
+}
 
 
 
