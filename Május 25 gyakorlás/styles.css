@@ -54,7 +54,8 @@ body
 }
 /* sidebar */
 .sidebar
-
+{
+    background-color: white;
     
 }
 .sidebar .sidebox
